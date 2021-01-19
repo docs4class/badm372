@@ -1,0 +1,133 @@
+---
+title: "BADM 372"
+author: Tobin Turner
+date: January 25, 2021
+output: ioslides_presentation
+---
+
+## Data Analytics 2 
+```{r, echo=FALSE}
+   knitr::include_graphics('./img/pc.logo.png')
+```
+
+
+## How good to you feel about Analytics 1 {.build}
+
+- R basics?
+- Data wrangling?
+- Modeling? (lm, glm, etc.)
+
+## Things We'll Use
+```{r, out.width = "50%", fig.pos="h", echo=FALSE}
+knitr::include_graphics('./img/4ds.cover.png')
+```
+---
+```{r, out.width = "50%", fig.pos="h", echo=FALSE}
+knitr::include_graphics('./img/ISLR.jpg')
+```
+---
+```{r, out.width = "50%", fig.pos="h", echo=FALSE}
+knitr::include_graphics('./img/hex.rmarkdown.png')
+```
+
+# Course Overview
+
+## Broad Plan
+```{r, out.width = "50%", fig.pos="h", echo=FALSE}
+knitr::include_graphics('./img/data-science.png')
+```
+
+1)	Explore
+
+2)	Wrangle
+
+3)	Program
+
+4)	Model
+
+5)	Communicate
+
+## Explore
+
+b)	3 Data visualisation
+c)	4 Workflow: basics
+d)	5 Data transformation
+e)	6 Workflow: scripts
+f)	7 Exploratory Data Analysis
+g)	8 Workflow: projects
+
+
+## Wrangle
+a)	9 Introduction
+b)	10 Tibbles
+c)	11 Data import
+d)	12 Tidy data
+e)	13 Relational data
+f)	14 Strings
+g)	15 Factors
+h)	16 Dates and times
+##	Program
+a)	17 Introduction
+b)	18 Pipes
+c)	19 Functions
+d)	20 Vectors
+e)	21 Iteration
+##	Model
+a)	22 Introduction
+b)	23 Model basics
+c)	24 Model building
+d)	25 Many models
+##	Communicate
+a)	26 Introduction
+b)	27 R Markdown
+c)	28 Graphics for communication
+d)	29 R Markdown formats
+e)	30 R Markdown workflow
+
+
+## PC
+
+
+```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
+plot(cars)
+```
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+## Learning goals {.build}
+
+By the end of the course, you will be able to...
+
+- gain insight from data
+- gain insight from data, **reproducibly**
+- gain insight from data, reproducibly, **using modern programming tools and techniques**
+- gain insight from data, reproducibly **and collaboratively**, using modern programming tools and techniques
+- gain insight from data, reproducibly **(with literate programming and version control)** and collaboratively, using modern programming tools and techniques
+
+
+
+# Reproducible data analysis
+
+---
+
+## Reproducibility checklist
+
+
+> What does it mean for a data analysis to be "reproducible"?
+
+
+---
+
+Near-term goals:
+
+- Are the tables and figures reproducible from the code and data?
+- Does the code actually do what you think it does?
+- In addition to what was done, is it clear *why* it was done? 
+
+Long-term goals:
+
+- Can the code be used for other data?
+- Can you extend the code to do other things?
