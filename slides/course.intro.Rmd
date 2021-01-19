@@ -10,6 +10,10 @@ output: ioslides_presentation
 - R basics?
 - Data wrangling?
 - Modeling? (lm, glm, etc.)
+    + lm
+    + glm
+    + test & training data
+    + measures of fit, confusion matrix
 
 ## Resources We'll Use
 
@@ -135,7 +139,16 @@ What does it mean for data analysis to be "reproducible"?
   +    stat
   +    position
     
-# ggplot2 [components] (https://rpubs.com/hadley/ggplot2-layers)
+## ggplot2 components
+
+* Quiz: explain:
+  +    mapping
+  +    data
+  +    geom
+  +    stat
+  +    position
+  
+[link](https://rpubs.com/hadley/ggplot2-layers)
 
 ##    mapping
 
