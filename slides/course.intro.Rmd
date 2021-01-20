@@ -115,6 +115,13 @@ What does it mean for data analysis to be "reproducible"?
 ```
 
 
+```{marginfigure}
+Why is data visualization (even in the world of PowerBI 
+                           and Tableau) in R important?
+Hint: EDA and Reproducibility
+```
+
+
 ---
 
 ### Near-term goals:
@@ -141,6 +148,12 @@ What does it mean for data analysis to be "reproducible"?
     
 ## ggplot2 components
 
+
+```{r, out.width = "50%", fig.pos="p", echo=FALSE, fig.align = "center"}
+knitr::include_graphics('./img/layers.png')
+```
+
+## Quiz Next Class
 * Quiz: explain:
   +    mapping
   +    data
