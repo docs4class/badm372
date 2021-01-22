@@ -5,15 +5,38 @@ date: January 25, 2021
 output: ioslides_presentation
 ---
 
-## How good to you feel about Analytics 1 
+##  Feel good about Analytics 1?
 
-- R basics?
-- Data wrangling?
-- Modeling? (lm, glm, etc.)
+- R basics
+- Data wrangling
+- Modeling (lm, glm, etc.)
     + lm
     + glm
     + test & training data
     + measures of fit, confusion matrix
+    
+
+    
+```{r, out.width = "50%", fig.pos="p", echo=FALSE, fig.align = "center"}
+knitr::include_graphics('./img/data-science.png')
+```
+
+
+    
+## Learning goals
+### By the end of the course, you will be able to...
+
+- gain insight from data
+- gain insight from data, reproducibly
+- gain insight from data, reproducibly, using modern programming tools and techniques
+- gain insight from data, reproducibly and collaboratively, using modern programming tools and techniques
+- gain insight from data, reproducibly (with literate programming and version control) and collaboratively, using modern programming tools and techniques
+
+## Toolkit for reproducibility 
+
+- Scriptability →  R
+- Literate programming (code, narrative, output in one place) →  R Markdown
+- Version control →  Git / GitHub
 
 ## Resources We'll Use
 
